@@ -1,12 +1,3 @@
-# Test User Credentials (username / password)
-
-emily / 12345
-
-jonathan / 12345
-
-amir / 12345
-
-
 
 # TinySocial
 
