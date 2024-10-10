@@ -1,0 +1,45 @@
+mat-card-header {
+    background: darkolivegreen;
+    padding: 15px;
+    border-radius: 9px 9px 0px 0px;
+}
+
+.app-title {
+    margin-left: 20px;
+    align-content: center;
+    color: white;
+    font-size:x-large;
+    height: 110px;
+}
+
+.active-user {
+    margin-right: 0;
+    margin-left: auto;
+    display:flex
+}
+
+.active-user-btn {
+    width: 200px;
+    display:flow-root;
+    background: yellowgreen;
+    padding-bottom: 5px;
+}
+
+.avatar-user {
+    vertical-align:middle;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.place-center {
+    /* To horizontally center the element */
+    margin: 0 auto;
+    display: flex;
+}
+
+.logout-btn {
+    background-color: white;
+    width: 100px;
+    margin: 0 auto;
+}

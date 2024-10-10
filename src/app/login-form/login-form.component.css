@@ -1,0 +1,20 @@
+.login{
+    padding: 20px 20px 0px 20px
+}
+
+mat-form-field {
+    padding: 5px
+}
+
+.place-center {
+        /* To horizontally center the element */
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+}
+
+.error {
+    padding: 0px 20px 20px 100px;
+    color: red;
+    font-size: small;
+}

@@ -1,0 +1,12 @@
+
+    <div>
+        <form class="new-post" [formGroup]="newPost" (ngSubmit)="CreatePostClicked()">
+            <mat-form-field class="textfield">
+                <textarea matInput rows="5" cols="110" placeholder="Share your thoughts..." formControlName="textcontent" maxlength="800"></textarea>
+                <mat-error *ngIf="newPost.get('textcontent').touched">This field is mandatory.</mat-error>
+                <mat-hint>The maximum character count is 800.</mat-hint>
+            </mat-form-field>
+            <button type="submit" mat-flat-button class="create-btn" [disabled]="newPost.invalid" >Create Post</button>
+        </form>
+    </div>
+

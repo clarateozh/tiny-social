@@ -1,0 +1,17 @@
+<mat-card-header>
+    <span class="app-title">Tiny Social Media</span>
+
+    <span class="active-user" *ngIf="activeUser != null">
+        <mat-card class="active-user-btn place-center">
+            <span>
+                <img class="avatar-user" mat-card-avatar  [src]="'./assets/images/' + activeUser.avatar">
+                {{activeUser.username}}
+            </span>   
+            <button class="logout-btn" mat-stroked-button (click)="logout()">Logout</button>
+        </mat-card>
+      
+    </span>
+
+</mat-card-header>
+
+

@@ -1,0 +1,16 @@
+.new-post {
+    display: flex;
+    padding: 10px;
+}
+
+.textfield {
+    width: 820px;
+}
+
+.create-btn {
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 18px;
+}
+

@@ -1,0 +1,12 @@
+<div >
+    <mat-card appearance="outlined" *ngFor="let post of allposts" >
+        <mat-card-header>
+            <img mat-card-avatar [src]="'./assets/images/' + post.avatar" alt="avatar">
+            <mat-card-title>{{post.username}}</mat-card-title>
+            <mat-card-subtitle>{{post.timestamp|date:'medium'}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            {{post.textcontent}}
+        </mat-card-content>
+    </mat-card>
+</div>

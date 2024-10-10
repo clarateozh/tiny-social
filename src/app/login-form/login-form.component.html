@@ -1,0 +1,20 @@
+<div class="place-center login">
+    <form (ngSubmit)="LoginClicked()" [formGroup]="loginForm" >  
+        <mat-form-field>
+            <mat-label>username</mat-label>
+            <input matInput formControlName="username">
+        </mat-form-field>
+    
+        <mat-form-field>
+            <mat-label>password</mat-label>
+            <input type="password" matInput formControlName="password" >
+        </mat-form-field>
+        <button mat-flat-button [disabled]="loginForm.invalid">Login</button>
+    </form>
+</div>
+<div *ngIf="!attemptSuccess" class="place-center error">
+    The username and password combination is incorrect. Please try again.
+</div>
+     
+
+
